@@ -1,8 +1,8 @@
-def вивести_парні_числа():
-    початок = int(input("Введіть початкове число: "))
-    кінець = int(input("Введіть кінцеве число: "))
-    if початок % 2 != 0:
-        початок += 1
-    for число in range(початок, кінець + 1, 2):
-        print(число)
-вивести_парні_числа()
+def output_even_num():
+    start = int(input("Введіть початкове число: "))
+    finish = int(input("Введіть кінцеве число: "))
+    if start % 2 != 0:
+        start += 1
+    for num in range(start, finish + 1, 2):
+        print(num)
+output_even_num()
